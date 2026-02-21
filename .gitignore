@@ -1,0 +1,14 @@
+# Environments
+nlp_pro/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (optional, remove if you want to commit these)
+*.csv
