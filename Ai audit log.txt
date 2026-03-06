@@ -1,0 +1,52 @@
+TASK :
+Evaluate & application
+PROMPT:
+Make these by using the result from Method A_classical AND Method A_classical
+
+1.Evaluation : Using Precision . Recall . F1 Score
+
+2.Document Search : Try using vector from method B to make a simple document search using cosine similarity to check that when put in a Query into the system will it return the correct document
+
+RESULT:
+Done! I've rewritten Evaluation & application.ipynb with two main parts:
+
+Part 1 — Evaluation (Precision, Recall, F1 Score)
+โค้ด Setup , load data ,Eva model A , Eva model B , Compare model A VS B
+Part 2 — Document Search (Cosine Similarity)
+โค้ด Document Search
+Test Document Search
+
+-----------------------------------------------------------------------------------------------------------------------
+
+TASK : Label data ใน output_file.csv ทำเองคงไม่ไหว
+PROMPT : Label genre in output_file.csv and make a new csv file
+RESULT :
+labeled_songs.csv เหมือน output_file.csv แต่ Label เพลงให้
+
+-----------------------------------------------------------------------------------------------------------------------
+
+TASK : Method B _ Neural
+Prompt : 
+Create a text classification model using Deep learning with these requirement
+Feautre : Use Word embedding(word2vec or GloVe) for input or use Doc2Vec
+Model : Use Deep learning model by using these architecture RNN,LSTM or GRU
+
+Result:
+โค้ด method B_neural
+Human Verification:
+Fail: Load and preprocess data ไม่ถูกไฟล์
+Fix: เปลี่ยนไฟล์ที่ต้องอ่านเอง
+
+-----------------------------------------------------------------------------------------------------------------------
+
+TASK : Method A _ Classical
+Prompt : 
+Create a text classification model with classical approach with these requirement
+Feautre : Use bag-of-words or TF-IDF
+Model : Use machine learning model for example Naive Bayes , Logistic regression or Random forest
+
+Result:
+โค้ด method A_Classical
+Human Verification:
+Fail: Load and preprocess data ไม่ถูกไฟล์
+Fix: เปลี่ยนไฟล์ที่ต้องอ่านเอง
